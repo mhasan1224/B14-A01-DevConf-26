@@ -4,7 +4,7 @@
     font-family: "Inter", sans-serif;
 }
 /* nav bar */
-.container {
+.container{
     width: 90%;
     max-width: 1200px;
     margin: auto;
@@ -95,4 +95,47 @@ ul li a {
     color: #ffffff;
     border: none;
     cursor: pointer;
+}
+/* cadr section */
+.container h2{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 56px;
+    font-weight: 700;
+    color: #000102;
+}
+.Speakers-children{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 40px 0;
+}
+.card{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card img{
+    width: 100%;
+    padding-bottom: 10px;
+}
+.category{
+    padding-left: 15px;
+    padding-bottom: 10px;
+    font-weight: 12px;
+    font-size: 600;
+    color: #2563eb;
+}
+.card h3{
+    padding-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 20px;
+    font-size: 700;
+}
+.card p{
+    padding-left: 15px;
+    padding-bottom: 20px;
+    font-weight: 14px;
+    font-size: 400;
 }
